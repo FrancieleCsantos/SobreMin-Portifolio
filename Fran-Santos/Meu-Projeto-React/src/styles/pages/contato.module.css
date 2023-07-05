@@ -1,0 +1,33 @@
+.form {
+  width: 100%;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formInput {
+  width: 50%;
+  padding: .6rem 2rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  resize: vertical;
+}
+
+.formButton {
+  width: 50%;
+  padding: .6rem 2rem;
+  background-color: #3f096b;
+  color: #fff;
+  border: none;
+  margin-top: 1rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formButton:hover {
+  background-color: rgb(131, 28, 156);
+}

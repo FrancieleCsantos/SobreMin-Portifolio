@@ -1,0 +1,27 @@
+.MainSobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.MainSobre img{
+ width: 18.75rem;
+ border-radius: 10%;
+margin-left: 4rem;
+}
+
+.sobreImg{
+    width: 40%;
+}
+
+.textoSobre{
+    width: 36rem;
+text-align: left;
+}
+
+.tituloSobre{
+    padding: 2rem;
+    font-size: 1.2rem;
+    color: #474a51; 
+}

@@ -1,0 +1,30 @@
+.containerMainHome {
+    padding: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    text-align: center;
+}
+
+.containerMainHome p {
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.imgVida,
+.imgCodigo,
+.imgContatos {
+    width: 24rem;
+}
+
+.cardVida,
+.cardCodigo,
+.cardContatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 23.125rem;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 26px 42px rgba(9, 9, 9, 0.1);
+}
